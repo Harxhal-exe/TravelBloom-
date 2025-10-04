@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom - AboutPage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-sans">
+
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center px-8 py-3 w-full bg-black/50 fixed z-10 text-white">
+        <div class="flex items-center space-x-2">
+            <span class="text-2xl">✈️</span>
+            <h1 class="font-bold text-xl">TravelBloom</h1>
+        </div>
+        <ul class="flex space-x-8">
+            <li><a href="./travel.html" class="hover:text-teal-400">Home</a></li>
+            <li><a href="about.html" class="hover:text-teal-400">About Us</a></li>
+            <li><a href="./contact.html" class="hover:text-teal-400">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section class="relative">
+        <img src="/travelBloom/assests/background.jpg" alt="City view" class="w-full h-screen object-cover">
+
+
+        <div>
+            <!-- Overlay -->
+            <div class="absolute inset-0 bg-gradient-to-r from-black via-black/40 to-transparent"></div>
+
+            <!-- Content -->
+            <div class="absolute inset-0 flex flex-col justify-center items-start text-white mt-16 px-16 space-y-6">
+                <h2 class="text-6xl font-extrabold leading-tight">
+                    ABOUT US
+                </h2>
+                <p class=" text-gray-200">
+                    Welcome to Our Company! We are a team of passionate individuals dedicated to providing excellent
+                    services/products to our customers. Our mission is to provide the best experience for people
+                    travelling to different destinations around the world. <br>Our values include integrity, innovation,
+                    customer satisfaction and teamwork. We believe in <strong> putting our customers first</strong> and
+                    <strong> working together </strong>to achieve our goals. <br>Feel free to explore our website to
+                    learn more about what we offer!
+                </p>
+
+                <!-- Social Icons -->
+                <div class="flex space-x-4 mt-4">
+                    <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitter.svg"
+                            class="w-6 h-6 invert" alt="Twitter"></a>
+                    <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg"
+                            class="w-6 h-6 invert" alt="Facebook"></a>
+                    <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg"
+                            class="w-6 h-6 invert" alt="Instagram"></a>
+                    <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg"
+                            class="w-6 h-6 invert" alt="YouTube"></a>
+                </div>
+                <div class="text-white py-5 flex flex-row space-x-10">
+                    <h2 class="text-6xl font-extrabold leading-tight mb-8">Our Team</h2>
+
+                    <div class="flex gap-8 space-x-5">
+                        <div class="bg-black/50 text-white flex flex-col p-4 w-60 h-40 rounded-2xl">
+                            <div class="flex items-center space-x-2">
+                                <img src="/travelBloom/assests/profile.png" class="h-6 w-6" alt="">
+                                <h3 class="font-bold text-md">Harshal</h3>
+                            </div>
+                            <p class="text-sm text-gray-300 mt-2 pr-20">He is responsible for...</p>
+                            <button
+                                class="bg-blue-900 text-white font-bold p-1 mt-3 m-[25px] rounded-md cursor-default">CEO</button>
+                        </div>
+
+                        <div class="bg-black/50 text-white flex flex-col p-4 w-60 h-40 rounded-2xl">
+                            <div class="flex items-center space-x-2">
+                                <img src="/travelBloom/assests/profile.png" class="h-6 w-6" alt="">
+                                <h3 class="font-bold text-md">Jane Smith</h3>
+                            </div>
+                            <p class="text-sm text-gray-300 mt-2 pr-[25px]">Jane Smith is responsible for...</p>
+                            <button class="bg-blue-900 text-white font-bold p-1 mt-3 rounded-md cursor-default">Team
+                                Lead</button>
+                        </div>
+
+                        <div class="bg-black/50 text-white flex flex-col p-4 w-60 h-40 rounded-2xl">
+                            <div class="flex items-center space-x-2">
+                                <img src="/travelBloom/assests/profile.png" class="h-6 w-6" alt="">
+                                <h3 class="font-bold text-md">Myke Tysen</h3>
+                            </div>
+                            <p class="text-sm text-gray-300 mt-2 pr-[25px]">Myke Tysen is responsible for...</p>
+                            <button class="bg-blue-900 text-white font-bold p-1 mt-3 rounded-md cursor-default">Delivery
+                                Head</button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>
